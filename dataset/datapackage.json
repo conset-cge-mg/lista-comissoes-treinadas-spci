@@ -1,5 +1,6 @@
 {
   "name": "lista-comissoes-treinadas-spci",
+  "title": "Lista de Comissões Treinadas para uso do SPCI",
   "owner_org": "controladoria-geral-do-estado-cge",
   "profile": "data-package",
   "resources": [
@@ -31,7 +32,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Lista de Comissões Treinadas SPCI"
     }
   ]
 }
