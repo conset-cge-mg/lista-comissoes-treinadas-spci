@@ -1,0 +1,37 @@
+{
+  "name": "lista-comissoes-treinadas-spci",
+  "owner_org": "controladoria-geral-do-estado-cge",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "relacao-de-comissoes-treinadas",
+      "path": "data/Relação de Comissões Treinadas.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "orgao",
+            "type": "string"
+          },
+          {
+            "name": "e_mail",
+            "type": "string"
+          },
+          {
+            "name": "se_a_comissao_foi_treinada",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ]
+}
